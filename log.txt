@@ -1,0 +1,588 @@
+const  _a INT 1
+const  b INT -1
+const  ch1 CHAR
+const  ch2 CHAR
+varenter CHAR
+VOID  testchildexpression
+vara INT
+var b INT
+var c INT
+var d INT
+var e INT
+expression value is0
+name a value 0
+var a is assigned
+ID
+~~
+ID
+expression value is0
+name b value 0
+var b is assigned
+SEMI
+~~
+ID
+expression value is0
+name c value 0
+var c is assigned
+SEMI
+~~
+ID
+expression value is0
+name b value 0
+var b is assigned
+SEMI
+~~
+ID
+expression value is0
+name c value 0
+var c is assigned
+SEMI
+~~
+ID
+expression value is0
+name d value 0
+var d is assigned
+SEMI
+~~
+ID
+expression value is0
+name e value 0
+var e is assigned
+SEMI
+~~
+PRINTF
+print  expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+0
+~~
+RBRACE
+VOID  manyparameter
+parameter INT  a
+parameter INT  b
+parameter INT  c
+parameter INT  d
+parameter INT  e
+parameter INT  f
+parameter INT  g
+~~
+ID
+~~
+SEMI
+~~
+ID
+expression value is0
+name tt value 0
+var tt is assigned
+SEMI
+~~
+ID
+expression value is0
+name tt value 0
+var tt is assigned
+SEMI
+~~
+ID
+expression value is0
+name tt value 0
+var tt is assigned
+SEMI
+~~
+PRINTF
+print  MPValue:  expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+expression value is0
+0
+~~
+RBRACE
+VOID  testcompare
+vara INT
+expression value is0
+name a value 0
+var a is assigned
+SEMI
+~~
+IF
+expression value is0
+expression value is0
+a GREATEREQ _t29
+expression value is0
+name a value 0
+var a is assigned
+SEMI
+~~
+IF
+expression value is0
+expression value is0
+a LESS _t32
+expression value is0
+name a value 0
+var a is assigned
+SEMI
+~~
+IF
+expression value is0
+expression value is0
+a GREATEREQ _t35
+expression value is0
+name a value 0
+var a is assigned
+SEMI
+~~
+IF
+expression value is0
+expression value is0
+a LESS _t38
+expression value is0
+name a value 0
+var a is assigned
+SEMI
+~~
+ID
+expression value is0
+function prntf is called1
+~~
+PRINTF
+print  expression value is0
+0
+~~
+RBRACE
+VOID  testswitch
+vara INT
+expression value is0
+name a value 0
+var a is assigned
+SEMI
+~~
+SWITCH
+expression value is0
+print  result1 case judge type CHARvalue 48
+print  result2 case judge type INTvalue 0
+print  default1 default statement
+~~
+PRINTF
+print  expression value is0
+0
+~~
+ID
+expression value is0
+name a value 0
+var a is assigned
+SEMI
+~~
+SWITCH
+expression value is0
+print  result3 case judge type INTvalue -48
+print  result4 case judge type INTvalue 48
+print  default2 default statement
+~~
+PRINTF
+print  expression value is0
+0
+~~
+SWITCH
+expression value is0
+expression value is0
+print  result5 case judge type INTvalue 48
+print  result6 case judge type INTvalue 48
+print  default3 default statement
+~~
+PRINTF
+print  expression value is0
+0
+~~
+SWITCH
+expression value is0
+expression value is0
+print  result7 case judge type INTvalue 1
+print  result8 case judge type INTvalue -1
+print  default4 default statement
+~~
+PRINTF
+print  expression value is0
+0
+~~
+RBRACE
+VOID  pr
+parameter INT  i
+parameter INT  j
+expression value is0
+return ~~
+SWITCH
+expression value is0
+case judge type INTvalue 0
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+_t68 JEQUAL _t69
+print  expression value is0
+0
+~~
+RBRACE
+default statement
+~~
+ID
+expression value is0
+name j value 0
+var j is assigned
+SEMI
+~~
+ID
+expression value is0
+name i value 0
+var i is assigned
+SEMI
+~~
+ID
+expression value is0
+expression value is0
+2
+lllabel  SEMI
+function pr is called1
+~~
+RBRACE
+INT  getnum
+const  x INT 1
+vary INT
+expression value is0
+name y value 0
+var y is assigned
+SEMI
+~~
+WHILE
+while statement
+expression value is0
+expression value is0
+y LESS _t75
+expression value is0
+expression value is0
+y LESS _t76
+expression value is0
+name y value 0
+var y is assigned
+SEMI
+expression value is0
+name y value 0
+var y is assigned
+SEMI
+~~
+RBRACE
+~~
+RETURN
+return expression value is0
+0
+~~
+RBRACE
+INT  getzero
+varx INT
+varre INT
+expression value is0
+name x value 0
+var x is assigned
+SEMI
+~~
+ID
+expression value is0
+name re value 0
+var re is assigned
+SEMI
+~~
+WHILE
+while statement
+expression value is0
+expression value is0
+x LESSEQ _t83
+expression value is0
+name re value 0
+var re is assigned
+SEMI
+~~
+ID
+expression value is0
+name x value 0
+var x is assigned
+SEMI
+~~
+RBRACE
+~~
+RETURN
+return expression value is0
+0
+~~
+RBRACE
+CHAR  getchar
+varch CHAR
+expression value is0
+name ch value 0
+var ch is assigned
+SEMI
+~~
+RETURN
+return expression value is0
+0
+~~
+RBRACE
+main function resolved!
+var arrayttt CHAR
+varn INT
+var i INT
+var pce INT
+var j INT
+var length INT
+var t INT
+var arrayresult INT
+varch3 CHAR
+function getcharis called
+expression value is0
+name ch3 value 0
+var ch3 is assigned
+SEMI
+~~
+ID
+expression value is0
+function getcharis called
+expression value is0
+tttis assigned array ele index is _t93value is0
+array ttt element is assigned
+~~
+ID
+expression value is0
+expression value is0
+resultis assigned array ele index is _t95value is0
+array result element is assigned
+~~
+ID
+expression value is0
+name enter value 0
+var enter is assigned
+SEMI
+~~
+SCANF
+read  n 
+~~
+ID
+expression value is0
+name i value 0
+var i is assigned
+SEMI
+~~
+WHILE
+while statement
+expression value is0
+expression value is0
+i LESSEQ n
+function getzerois called
+expression value is0
+name pce value 0
+var pce is assigned
+SEMI
+~~
+ID
+function getzerois called
+expression value is0
+name j value 0
+var j is assigned
+SEMI
+~~
+PRINTF
+print  expression value is0
+0
+~~
+WHILE
+while statement
+expression value is0
+expression value is0
+j LESSEQ _t101
+expression value is0
+expression value is0
+name t value 0
+var t is assigned
+SEMI
+~~
+ID
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+resultis assigned array ele index is jvalue is0
+array result element is assigned
+~~
+ID
+expression value is0
+expression value is0
+name pce value 0
+var pce is assigned
+SEMI
+~~
+ID
+expression value is0
+name j value 0
+var j is assigned
+SEMI
+~~
+RBRACE
+~~
+ID
+expression value is0
+name i value 0
+var i is assigned
+SEMI
+~~
+RBRACE
+~~
+ID
+function getnumis called
+expression value is0
+name length value 0
+var length is assigned
+SEMI
+~~
+WHILE
+while statement
+expression value is0
+expression value is0
+expression value is0
+_t121 JEQUAL _t122
+expression value is0
+name length value 0
+var length is assigned
+SEMI
+~~
+ID
+expression value is0
+name i value 0
+var i is assigned
+SEMI
+~~
+PRINTF
+print  expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+0
+~~
+WHILE
+while statement
+expression value is0
+expression value is0
+i GREATEREQ _t124
+print  expression value is0
+expression value is0
+0
+~~
+ID
+expression value is0
+name i value 0
+var i is assigned
+SEMI
+~~
+RBRACE
+~~
+PRINTF
+print  \ expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+0
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+SEMI
+~~
+ID
+function testcompareis called
+function testcompare is called1
+~~
+ID
+function testswitchis called
+function testswitch is called1
+~~
+ID
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+expression value is0
+index 0
+1~7
+2~_a
+3~0
+_t128
+_t129
+_t130
+_t131
+_t132
+_t133
+_t134
+7
+lllabel  SEMI
+function manyarameter is called1
+~~
+ID
+function testchildexpressionis called
+function testchildexpression is called1
+~~
+PRINTF
+print  expression value is0
+expression value is0
+0
+~~
+PRINTF
+print  function getcharis called
+expression value is0
+0
+~~
+PRINTF
+print  expression value is0
+0
+~~
+RBRACE

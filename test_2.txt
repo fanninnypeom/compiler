@@ -1,0 +1,70 @@
+const int num1=1,num_2=-2,num_0=0;
+const int num_a=0;
+const char ch_a='a',ch_0 = '0',ch__='_',ch_star='*',ch_plus='-';
+const char ch_B = 'B';
+
+int num3,num4,num_arry1[3];
+int num5;
+
+char ch_c,ch_d,ch2,ch_arry1[2];
+char ch_minus;
+
+void v_func_add(int x){
+    x = x +1;
+    printf("x+1=",x);
+}
+void v_func_ret(){
+    printf("void return check ok");
+    return;
+    printf("failed");
+}
+int i_func_return_1(){
+    return (1);
+}
+int i_func_add(int y){
+    
+    return (y+1);
+}
+void i_func_calc(int a,int b){
+    const int c = 100;
+    int ans;
+    num3 = 100;
+    ans = a -b + c * num_2 + num3;
+    printf("simple expression");
+    printf("ans = a - b + 100 *2 + num3 = ",ans);
+    printf("complex expression:");
+    printf("3a-50=");
+    printf( (num1-num_2)*a + ( num_0/b + (num_0* 5 - (c/i_func_add(num1)) ) )   );
+}
+char c_func_return_d(){
+    printf("return 'd'");
+    return ('c'+1);
+}
+char c_func_ch_calc(char ch,int n){
+    char t;
+    n = 1;
+    t = ch + n ;
+    printf("ch+1=",t); 
+    return (t);
+}
+void main(){
+    const int m = 0;
+    int n;
+    
+    v_func_add(m);
+    v_func_ret();
+
+    printf("return 1 check");
+    n =i_func_return_1();
+    if(n==1)
+        printf("ok");
+
+    n = 3;
+    i_func_calc(num_2,n);
+
+    printf(c_func_return_d());
+
+    scanf(ch_c);
+    printf(c_func_ch_calc(ch_c,num3));
+    return;
+}

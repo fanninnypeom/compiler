@@ -1,0 +1,20 @@
+.data
+_a:.word 1
+b:.word -1
+b:.word - value
+b:.word n value
+result:.word 0:3000
+.text
+pr:
+addi $t0,$sp,-8
+lw $t0,0($t0)
+bne $t0,-1,label1
+jr $ra
+label1:
+addi $t0,$sp,-4
+lw $t0,0($t0)
+bne $t0,0,label2
+j label3
+label2:
+
+label3:

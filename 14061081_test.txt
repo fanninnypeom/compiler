@@ -1,0 +1,167 @@
+const int _a=+1;
+const int b=-1;
+const char ch1='-'; 
+const char ch2='n';
+char enter;
+const char zzz='n';
+
+
+void testChildExpression(){
+    int a,b,c,d,e;
+    a=-10;
+    b=-10;
+    c=-10;
+    b=a*c;
+    c=a*c;
+    d=a*c*b;
+    e=a*c*b;
+    printf(enter);
+    printf(d+e);
+}
+void manyParameter(int a,int b,int c,int d,int e,int f,int g){
+    int tt;
+    tt=-0;
+    tt=-3+a*b;
+    tt=+7+tt;
+    printf("MPValue: ",tt);
+    printf(enter);  
+    printf(+tt+a*b*c*d*e*(f-g));
+}
+void testCompare(){
+    int a;
+    a=1;
+    if(a>=1)
+        a=a+2;
+    if(a<3)
+        a=a+3;
+    if(a>=3)
+        a=a+4;
+    if(a<7)
+        a=a+4;
+    printf("testCompare: ",a);
+    printf(enter);
+}
+
+void testSwitch(){
+    int a;
+    a=48;
+    switch(a){
+        case '0' :printf("result1");
+        case 0 :printf("result2");
+        default :printf("default1");
+    }
+    printf(enter);
+    a=-48;
+    switch(a){
+        case -48 :printf("result3");
+        case 48 :printf("result4");
+        default :printf("default2");
+    }
+    printf(enter);
+    switch((a+96)*4/4+19-19){
+        case +48 :printf("result5");
+        case 48 :printf("result6");
+        default :printf("default3");
+    }
+    printf(enter);
+    switch((a+96)*4/4+19-19){
+        case 1 :printf("result7");
+        case -1 :printf("result8");
+        default :printf("default4");
+    }
+    printf(enter);
+}
+
+void pr(int i,int j){
+    if(i==-1)
+	    return;
+    switch(j){
+        case 0:;
+        default:{
+        if((j-(j/50)*50)==0)
+            printf(enter);
+        }
+    }
+    j=j+1;
+    i=i-1;
+    pr(i,j);
+} 
+int getNum(){
+    const int x=1;
+    int y;
+    y=0;
+    while(y<1000){
+        if(y<100)
+            y=y+1;
+        else
+            y=y+2;
+    }
+    return (y);
+}
+
+int getZero(){
+    int x;
+    int re;
+    x=1;
+    re=0;
+    while(x<=10){
+        re=re+x;
+        x=x+1;
+    }
+    return (re-55);
+}
+
+char getChar(){
+    char ch;
+    ch='m';
+    return (ch+1);
+}
+
+void main(){
+    char ttt[10];
+    int n,i,pce,j,length,t;
+    
+    int REsult[3000];
+    char ch3;
+    
+    ch3=getChar();
+    ttt[0]=getChar();
+    result[0]=2;
+    enter=10;
+    scanf(n);
+    i=3;
+    while(i<=n){
+    pce=getZero();		
+    j=getZero();
+    printf(pce);
+    while(j<=1000){
+    t=reSUlt[j]*i;
+    resulT[j]=(result[j]*i+pce)-((result[j]*i+pce)/10)*10;
+    pce=(t+pce)/10;
+    j=j+_a;
+    }
+    i=i+_a;
+    }
+    length=getNum();
+    while(result[length]==0)
+        length=length+b;
+    i=length;
+    printf(length);
+    printf("start");
+    printf(ch1);
+    printf(ch2);
+    printf(enter);
+    while(i>=0){
+        printf(result[i]);
+        i=i-1;
+    }
+    printf("\",ch3);
+    printf(enter);;;;;;;;;;;;;;;
+    testCompare();
+    testSwitch();
+    manyParameter(1,2,3,4,5,6,7);
+    testChildExpression();
+    printf(ttt[0]);
+    printf(getChar());
+    printf('m'+1);   
+}

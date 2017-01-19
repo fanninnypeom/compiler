@@ -1,0 +1,154 @@
+const int num1=1,num_2=-2,num_0=0;
+const int num_a=0;
+const char ch_a='a',ch_0 = '0',ch__='_',ch_star='*',ch_plus='-';
+const char ch_B = 'B';
+
+int num3,num4,num_arry1[3];
+int num5;
+
+char ch_c,ch_d,ch2,ch_arry1[2];
+char ch_minus;
+
+int i_func_return_1(){
+    return (1);
+}
+int i_func_add(int y){
+    
+    return (y+1);
+}
+void func_if_cmp(){
+    num5 = 1;
+    if(num5 == 2){
+        printf("== check failed");
+    }
+    num5 = i_func_add(num5);
+    if(num5 ==2 )
+        printf("== check ok");
+    
+    if(num5 != 2){
+        printf("!= check failed");
+    }
+    num5 = i_func_return_1();
+    if (num5 != 2){
+        printf("return 1 check ok");
+        printf("!= check ok");
+    }
+
+    if(num5 > 5){
+        ;
+        printf("> check failed");
+    }else{
+        printf("else check ok");
+        printf("> check ok");
+    }
+    num5 = 5;
+    if(num5 <5){
+        printf("< check failed");
+    }
+    else printf("< check ok");
+    num5 =4;
+    if(num5 >= 5){
+        printf(">= check failed");
+    }
+    num5 =5;
+    if(num5 >= 5){
+        printf("5>=5 check ok");
+    }
+    num5 = 6;
+    if(num5 >= 5){
+        printf("6>=5 check ok");
+    }
+    num5=6;
+    if( num5 <= 5){
+        printf("<= check failed");
+
+    }
+    num5 =5;
+    if(num5 <=5){
+        printf("5<=5 check ok");
+    }
+    num5 =4;
+    if(num5 <=5){
+            printf("4<=5 check ok");
+    }
+    if(num5 <= 10){
+        if(num5 != 9){
+            if(num5 == 4){
+                printf("multiple if check ok");
+            }
+            else printf("multiple if check failed1");
+        }else printf("multiple if check failed2");
+    }else printf("multiple if check failed3");
+}
+void func_while(){
+    const int len = 3;
+    num5 = 0;
+    while(num5 < len){
+        printf("while for 3 times");
+        num5 = num5+1;
+    }
+    while(num5 > 0){
+        if(num5 > 0)
+            printf("while if num5 > 0 for 3 times");
+        num5 = num5-1;
+    }
+}
+void func_switch(){
+    num5=1;
+    printf("number 1 switch check");
+    switch(num5){
+        case 1:
+            printf("match check ok");
+        case 2:
+            printf("check failed at ",2);
+        case 3:
+            printf("check failed at ",3);
+    }
+
+    num5=2;
+    printf("number 1 switch check");
+    switch(num5){
+        case 1:
+            printf("check failed at ",1);
+        case 2:{
+            printf("match check ok");
+            printf("multiple switch statement check ok");
+            }
+        case 3:
+            printf("check failed at ",3);
+    }
+
+    num5 = -1;
+    printf("default check");
+    switch(num5){
+        case 1:
+            printf("check failed at ",1);
+        case 2:
+            printf("match check ok");
+        case 3:
+            printf("check failed at ",3);
+        default:
+            printf("default check ok");
+    }
+
+    ch_c = 'c';
+    printf("char switch check ");
+    switch(ch_c){
+        case 'a':
+            printf("check failed at ",1);
+        case 'b':
+            printf("check failed at ",2);
+        case 'c':
+            printf("match check ok");
+    }
+
+}
+void main(){
+
+    func_if_cmp();
+
+    func_while();
+
+    func_switch();
+
+}

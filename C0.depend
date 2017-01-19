@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1478747642 source:d:\thirdyear\c0\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<string.h>
+	<stdlib.h>
+
+1483539773 source:d:\thirdyear\c0_cb\lexical.cpp
+	"global.h"
+
+1482946070 d:\thirdyear\c0_cb\global.h
+	<iostream>
+	<string.h>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<map>
+	<string.h>
+	<stdlib.h>
+	<sstream>
+	<vector>
+	<algorithm>
+
+1483195040 source:d:\thirdyear\c0_cb\main.cpp
+	"global.h"
+
+1479180962 d:\thirdyear\c0_cb\lexical.cpp
+	"global.h"
+
+1479180382 d:\thirdyear\c0_cb\program.cpp
+	"global.h"
+
+1483539533 source:d:\thirdyear\c0_cb\program.cpp
+	"global.h"
+
+1482463913 source:d:\thirdyear\c0_cb\symboltable.cpp
+	"global.h"
+
+1480841589 source:d:\thirdyear\c0_cb\midcode.cpp
+	"global.h"
+
+1483195700 source:d:\thirdyear\c0_cb\mips.cpp
+	"global.h"
+
+1480671487 source:d:\thirdyear\c0_cb\optimize.cpp
+	"global.h"
+

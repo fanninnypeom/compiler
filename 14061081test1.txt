@@ -1,0 +1,22 @@
+void main(){
+    int a,b,c,d,e,f,g,h,i,j,k,l;
+    a=-10;
+    b=-10;
+    c=-10;
+    b=a*c;
+    c=a*c;
+    d=a*c*b;
+    e=a*c*b;
+    f=d+e;
+    g=d+e;
+    h=g-d;
+    i=g-d;
+    j=h-10;
+    k=i-j;
+    l=i-j;
+    printf(k);
+    printf("  ");
+    printf(l);
+    return;
+}
+

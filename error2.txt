@@ -1,0 +1,23 @@
+void main()
+    int a,b,c,d,e,f,g,h,i,j,k,l,n,o;
+    int arr[100;
+    a=0;
+    b=1;
+    c=2;
+    d=3;
+    e=4;
+    f5;
+    g=6;
+    h=7;
+    i=8;
+    j=9;
+    k=10;
+    l=11;
+    n=12;
+    o=0;
+    if(a==0){
+        o=a+b+c+d+e+f+g+h+i+j+k+l+n+o;
+    
+    printf(o);
+
+}

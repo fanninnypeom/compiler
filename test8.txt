@@ -1,0 +1,77 @@
+const int a = 10;
+int list[10];
+
+int choose_pivot(int i,int j)
+{
+   return((i+j) /2);
+}
+
+void printlist(int n)
+{
+   int i;
+   i = 0;
+   while(i < n){
+      printf(list[i]); i = i +1;}
+}
+
+void quicksort(int m,int n)
+{
+   int key,x,y,z, tmp;
+   
+      key = list[choose_pivot(m,n)];
+      x = m;
+      y = n;
+      while(x <= y)
+      {
+          while(key <list[y]) y = y -1;
+          while(key > list[x]) x = x + 1;
+          if(x<=y){
+        tmp = list[x];
+                list[x] = list[y];
+                list[y] = tmp;
+                x = x +1;
+                y = y-1;
+      }
+      }
+      if(x<n)
+      quicksort(x,n);
+      if(m<y)
+      quicksort(m,y);
+}
+
+
+void main(){
+     int i;
+     i = 0;
+     while (i<10) {
+    list[i] = 10 - i;
+        i = i + 1;
+     }
+     list[1] = 16;
+      list[2] = 3;
+    list[3] = -8;
+    list[4] = 40;
+    list[5] = -1;
+    list[6] = 2;
+    list[7] = -10;
+      printlist(10);
+     i = 1;
+     quicksort(choose_pivot(0, choose_pivot(1, 1) - i), choose_pivot(9, 9));
+     choose_pivot(0, choose_pivot(1, 1) );
+     printf(" ");
+     printf(1*-1);
+     printf(" ");
+     printlist(10);
+     printf(" ");
+     list[5] = 0;
+     list[6] = -9;
+     list[9] = -100;
+     printlist(10);
+     printf(" ");
+     quicksort(1+1+1+(1)+1, 9);
+     printlist(10);
+     i = 0;
+     list[i] = list[i + 5];
+     printf(list[0]);
+     printf(list[5]);
+}
